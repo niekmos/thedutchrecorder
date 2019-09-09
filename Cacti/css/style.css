@@ -1,12 +1,19 @@
 body{
 
 	font-family: Arial;
+	margin: 0;
+	padding: 0;
+	background-image: url(https://wallpaperplay.com/walls/full/4/2/2/234831.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 body header{
 	text-align: center;
 	font-family: Arial;
 	font-size: 30px;
+	position: relative;
+	top: 50px;
 }
 
 .logo{
@@ -14,6 +21,8 @@ body header{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	position: relative;
+	top: 50px;
 }
 
 }
@@ -32,6 +41,8 @@ button{
 	padding: 15px 32px;
 	text-align: center;
 	font-size: 32px;
+	position: relative;
+	top: 50px;
 
 
   }
@@ -44,8 +55,9 @@ button{
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: deepskyblue;
+  background-color: transparent;
   overflow: hidden;
+
 }
 
 /* Style the links inside the navigation bar */
@@ -60,13 +72,13 @@ button{
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: royalblue;
+  background-color: greenyellow;
   color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: darkturquoise;
+  background-color: limegreen;
   color: white;
 }
 
@@ -80,8 +92,15 @@ button{
 	margin-bottom: 0px;
 	text-align: center;
 	font-size: 30px;
+	background-size: 25px;
 }
 
 .small{
 	font-size: 20px;
 }
+
+footer{
+	text-align: center;
+	background-color: #3f4145;
+	color: white;
+	padding: 25px;
