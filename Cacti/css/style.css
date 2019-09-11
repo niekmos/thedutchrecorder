@@ -3,9 +3,21 @@ body{
 	font-family: Arial;
 	margin: 0;
 	padding: 0;
-	background-image: url(https://wallpaperplay.com/walls/full/4/2/2/234831.jpg);
+	    background: linear-gradient(
+
+		to top right,
+
+            	rgba(552, 69, 3, 0.5),
+
+            	rgba(0, 170, 170, 0.1)
+
+    ),
+
+    url("https://wallpaperplay.com/walls/full/4/2/2/234831.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	
+	
 }
 
 body header{
