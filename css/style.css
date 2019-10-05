@@ -1,13 +1,27 @@
 body{
-  font-family: Arial;
+  
+	font-family: Arial;
 	margin: 0;
 	padding: 0;
+	    background: linear-gradient(
+
+		to top right,
+
+            	rgba(552, 69, 3, 0.77),
+
+            	rgba(0, 170, 170, 0.4)
+
+    ),
+
+    url("https://wallpaperplay.com/walls/full/4/2/2/234831.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: deepskyblue;
+  background-color: black;
   overflow: hidden;
 }
 
@@ -23,12 +37,25 @@ body{
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: royalblue;
-  color: black;
+  background-color: darkred;
+  color: white;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: darkturquoise;
+  background-color: red;
   color: white;
+}
+
+.titleborder {
+ border-style:solid;
+ border-color:white;
+}
+
+
+footer{
+	text-align: center;
+	background-color: #3f4145;
+	color: white;
+	padding: 25px;
 }
