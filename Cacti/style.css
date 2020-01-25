@@ -1,0 +1,87 @@
+body{
+
+	font-family: Arial;
+}
+
+body header{
+	text-align: center;
+	font-family: Arial;
+	font-size: 30px;
+}
+
+.logo{
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+}
+
+.button {
+    margin: auto;
+    display: block;
+}
+
+button{
+	display: table;
+	margin: 0 auto;
+	background-color springgreen;
+	color: white; 	
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+	font-size: 32px;
+
+
+  }
+
+.button:hover{
+	cursor: pointer;
+}
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: deepskyblue;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: royalblue;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: darkturquoise;
+  color: white;
+}
+
+
+.why{
+
+	font-family: 'Blinker', sans-serif;
+	background-color: white;
+	background-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.small{
+	font-size: 20px;
+}

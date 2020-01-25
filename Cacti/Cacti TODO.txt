@@ -1,0 +1,9 @@
+1/ Staff Chat
+2/ Fix all the mess (code).
+3/ Fix TDR logo.
+4/ RGB beacon.
+5/ Fix server code.
+6/ Cosmetic GUI
+7/ For every cosmetic (Not the TDR logo) in GUI, Have option for rainbow, normal, or picked color from slider.
+8/ Fix compatibility with all OS (MacOS and Linux)
+9/ Fix session refresher for outside of dev environment and alt switcher.
